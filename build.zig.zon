@@ -1,0 +1,17 @@
+.{
+    .name = .wren,
+    .version = "0.0.1",
+    .dependencies = .{
+        .wren = .{
+            .url = "https://github.com/wren-lang/wren/archive/refs/tags/0.4.0.tar.gz",
+            .hash = "N-V-__8AAAJyYgA3VQ4vBWduWE_TA8EAKJIPoxjJWT3vOPR9",
+        },
+        .translate_c = .{
+            .url = "git+https://codeberg.org/ziglang/translate-c?ref=2.0.2#c11030012dc325d446474d17b78c242fd1d622ec",
+            .hash = "translate_c-2.0.2-Q_BUWvBNBwBgPKQJPblip6M7AHNK_IPNPmyv4rSIQMQc",
+        },
+    },
+    .minimum_zig_version = "0.16.0",
+    .paths = .{""},
+    .fingerprint = 0x325928ba800f3aea,
+}
